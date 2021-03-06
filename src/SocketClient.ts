@@ -16,7 +16,6 @@ export abstract class SocketClient<U = any, V = any, S extends ISocketClientBase
     protected _socket: SocketIOClient.Socket;
     protected _settings: S;
 
-    
     protected error: ExtendedError;
     protected connectionPromise: PromiseHandler<void, ExtendedError>;
 
