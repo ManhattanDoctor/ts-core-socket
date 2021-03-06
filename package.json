@@ -1,0 +1,35 @@
+{
+    "name": "@ts-core/socket",
+    "version": "1.0.24",
+    "description": "Classes and utils for socket",
+    "main": "index.js",
+    "scripts": {},
+    "author": {
+        "name": "Renat Gubaev",
+        "email": "renat.gubaev@gmail.com"
+    },
+    "license": "ISC",
+    "dependencies1": {
+        "@types/socket.io": "2.1.4",
+        "socket.io": "2.3.0"
+    },
+    "dependencies": {
+        "@types/socket.io-client": "1.4.35",
+        "socket.io-client": "2.3.0",
+        "@ts-core/common": "^1.0.161"
+    },
+    "devDependencies": {
+        "gulp-npm-publisher": "1.0.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ManhattanDoctor/ts-core-socket.git"
+    },
+    "keywords": [
+        "typescript"
+    ],
+    "bugs": {
+        "url": "https://github.com/ManhattanDoctor/ts-core-socket/issues"
+    },
+    "homepage": "https://github.com/ManhattanDoctor/ts-core-socket#readme"
+}
